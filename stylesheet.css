@@ -166,12 +166,26 @@ header{
   display:inline-block;
   font-weight:normal;
   }
-  
-  .message-wrapper{
-    padding-top:80px;
-    text-align:center;
-  }
-  
+
+ .message-wrapper {
+  padding: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+ 
   .message-wrapper h2{
     font-weight:normal;
     color:#5f5d60;
@@ -182,23 +196,13 @@ header{
     padding-bottom:50px;
   }
   
-  .message{
-    background-color:#5dca88;
-    margin-bottom:80px;
-    box-shadow:0 7px #1a7940;
-    padding:15px 40px;
-    cursor:pointer;
-  }
+ 
   
   .message:hover{
     opacity:1;
     
   }
-  
-  .message:active{
-    box-shadow:none;
-    top:7px;
-  }
+ 
   
   footer{
     border-top:1px solid #eee;
