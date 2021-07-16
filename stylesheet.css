@@ -197,7 +197,7 @@ header{
   
   .message:active{
     box-shadow:none;
-    margin-top:7px;
+    top:7px;
   }
   
   footer{
