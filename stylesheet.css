@@ -43,7 +43,9 @@ a {
   color:white;
     opacity:1;
    text-align:center;
+  font-size:10px
   text-shadow:0 5px 5px black;
+  
 }
 
 .btn-wrapper{
@@ -159,10 +161,10 @@ header{
 .text-contents{
   padding-top:15px;
   font-size:13px;
-  color:#b3aeb5;
+  color:black;
   width:80%;
   display:inline-block;
-  font-weight:bold;
+  font-weight:normal;
   }
   
   .message-wrapper{
