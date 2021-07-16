@@ -43,6 +43,7 @@ a {
   color:white;
     opacity:1;
    text-align:center;
+  text-shadow:0 5px 5px black;
 }
 
 .btn-wrapper{
@@ -130,7 +131,7 @@ header{
 
 .lesson-wrapper h2{
   padding-top:80px;
-  font-weight:bold;
+  font-weight:normal;
   text-align:center;
   color:#5f5d60;
 }
@@ -152,6 +153,7 @@ header{
   top:90px;
   width:100%;
   color:white;
+  font-weight:bold;
 }
 
 .text-contents{
@@ -160,6 +162,7 @@ header{
   color:#b3aeb5;
   width:80%;
   display:inline-block;
+  font-weight:bold;
   }
   
   .message-wrapper{
