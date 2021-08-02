@@ -232,6 +232,10 @@ header{
     font-size: 13px;
     line-height: 1.7;
   }
+  
+  .lessons img{
+    width:100%;
+  }
 
   .top-wrapper{
     width:100%;
