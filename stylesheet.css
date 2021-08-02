@@ -219,3 +219,53 @@ header{
    font-size:12px;
    padding-bottom:30px;
  }
+
+
+/* モバイル向けレイアウト */
+
+* {
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 670px) {
+  .menu-icon{
+    display:block;
+    padding:21px 0;
+    float:right;
+    font-size:25px;
+  }
+  .header-right{
+    display:none;
+  }
+  
+  .top-wrapper{
+    text-align:center;
+  }
+  
+   .top-wrapper h1{
+    font-size:24px;
+  }
+  
+  .top-wrapper p{
+    font-size:14px;
+  }
+ 
+  .facebook{
+    margin-bottom:10px;
+       width:100%;
+  }
+  
+  .twitter{
+       width:100%;
+  }
+  
+  .lesson{
+    width:100%;
+  }
+  .message{
+    width:100%;
+  }
+  
+  }
+  
+
