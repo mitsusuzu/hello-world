@@ -221,56 +221,65 @@ header{
  }
 
 /*レスポンシブ*/
-media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size:32px;
   }
-
-  footer {
-    text-align: center;
+  
+  .lesson{
+    width:50%;
+    margin-bottom:50px;
   }
-
-  .top-wrapper h1 {
-    font-size: 32px;
+  
+   h2{
+    font-size:20px;
   }
-
-  .heading h2 {
-    font-size: 20px;
+  
+  footer{
+    text-align:center;
   }
 }
 
+/* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
+  .menu-icon{
+    display:block;
+    padding:21px 0;
+    float:right;
+    font-size:25px;
   }
-
-  .btn {
-    width: 100%;
-  }
-
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-
-  
   .header-right{
     display:none;
   }
- 
-  .menu-icon{
-    display:block;
+  
+  .top-wrapper{
+    text-align:center;
   }
   
-  .top-wrapper h1 {
-    font-size: 24px;
+   .top-wrapper h1{
+    font-size:24px;
   }
-
-  .top-wrapper p {
-    font-size: 14px;
+  
+  .top-wrapper p{
+    font-size:14px;
   }
-}
+ 
+  .facebook{
+    margin-bottom:10px;
+       width:100%;
+  }
+  
+  .twitter{
+       width:100%;
+  }
+  
+  .lesson{
+    width:100%;
+  }
+  .message{
+    width:100%;
+  }
+  
+  }
+  
