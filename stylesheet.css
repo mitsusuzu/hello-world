@@ -231,6 +231,7 @@ header{
   
  
   .top-wrapper{
+    width:100%;
     text-align:center;
   }
   
@@ -257,6 +258,14 @@ header{
   .btn{
     width:100%;
   }
+  
+  .lesson-wrapper{
+    width:100%;
+  }
+  
+  footer{
+    width:100%;
+    text-align:center;
   
   }
   
