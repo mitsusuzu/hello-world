@@ -228,12 +228,7 @@ header{
 }
 
 @media all and (max-width: 670px) {
-  .menu-icon{
-    display:block;
-    padding:21px 0;
-    float:right;
-    font-size:25px;
-  }
+  
   .header-right{
     display:none;
   }
